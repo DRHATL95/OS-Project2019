@@ -17,7 +17,7 @@ public class CPU implements Runnable {
    public int jobID;
    public int processID;
    public Memory ram;
-   public String cache[] = new String[1024]; // Acquired from Memory Module
+   public String cache[] = new String[128]; // Acquired from Memory Module
    public double cacheUsed; // Value used for metrics (percentage)
 //   public Register currentRegisters; // called from helper class 'Register'
 //   public Register accumlator; // Called from helper class 'Register'
